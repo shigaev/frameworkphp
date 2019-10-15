@@ -1,0 +1,3 @@
+AddDefaultCharset utf-8
+RewriteEngine On #включение модуля
+RewriteRule ^(.*)$ /public/$1 #правило перенаправления: берет все запросы, отправляет их в папку public
